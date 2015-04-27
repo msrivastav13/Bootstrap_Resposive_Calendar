@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ResponsiveCalendarCtrl</members>
+        <members>TestResponsiveCalendarCtrl</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Responsive_Calendar</members>
+        <members>Responsive_Calendar_View</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>Calendar</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>CalendarLibrary</members>
+        <name>StaticResource</name>
+    </types>
+    <version>15.0</version>
+</Package>
