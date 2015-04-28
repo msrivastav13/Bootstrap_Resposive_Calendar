@@ -4,7 +4,7 @@ The demo for this can be found in below URL
 
 http://webzone-developer-edition.ap1.force.com/webzone/Calendar
 
-To customize this for any other object please provide values  in the Responsive_Calendar_View apex component 
+To customize this for any other object please provide values  in the Responsive_Calendar_View Visualforce component 
 
 The attribute definations are below 
 
@@ -23,3 +23,7 @@ The attribute definations are below
 To read more follow the blog link below
 
 http://cloudyworlds.blogspot.com/2015/04/responsive-bootstrap-calendar-in.html
+
+To install as an unmanged version please use below link
+
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t90000000FUls
