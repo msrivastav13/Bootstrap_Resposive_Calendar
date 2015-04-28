@@ -19,3 +19,7 @@ The attribute definations are below
 <b>StartDateTimeFieldName--</b>Start Date field Name
 
 <b>URL--</b>Pass the Name of the URL field
+
+To read more follow the blog link below
+
+http://cloudyworlds.blogspot.com/2015/04/responsive-bootstrap-calendar-in.html
