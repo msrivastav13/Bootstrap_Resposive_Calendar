@@ -10,11 +10,12 @@ global with sharing class ResponsiveCalendarCtrl{
     global static list<calendarWrapper> getCalendarItems(string ObjectName,string URL,string startdatetimeField,string enddatetimeField,string title){
        list<calendarWrapper> lstcalendar=new list<calendarWrapper>();
        TimeZone tz = UserInfo.getTimeZone();
+       String loggedInUserId = UserInfo.getUserId();
        string querystr='Select Id'+','+title+','+enddatetimeField+','+startdatetimeField;
        if(URL!='id'){
          querystr=querystr+','+URL;
        }
-       querystr=querystr+' from '+ObjectName+' order by createdDate DESC limit 25000';//Limit the data
+       querystr=querystr+' from '+ObjectName+'where ownerId=:loggedInUserId'+' order by createdDate DESC limit 25000';//Limit the data
        for(Sobject t:Database.query(querystr)){
            calendarWrapper c=new calendarWrapper();
            c.title=(string)t.get(title);
