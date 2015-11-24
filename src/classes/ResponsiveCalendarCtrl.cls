@@ -15,7 +15,7 @@ global with sharing class ResponsiveCalendarCtrl{
        if(URL!='id'){
          querystr=querystr+','+URL;
        }
-       querystr=querystr+' from '+ObjectName+'where ownerId=:loggedInUserId'+' order by createdDate DESC limit 25000';//Limit the data
+       querystr=querystr+' from '+ObjectName+' where ownerId=:loggedInUserId'+' order by createdDate DESC limit 25000';//Limit the data
        for(Sobject t:Database.query(querystr)){
            calendarWrapper c=new calendarWrapper();
            c.title=(string)t.get(title);
