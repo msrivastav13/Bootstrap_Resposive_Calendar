@@ -112,7 +112,6 @@
     });
   }
 }(jQuery));
-
 </script>
 
 </apex:component>

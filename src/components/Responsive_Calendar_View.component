@@ -20,7 +20,7 @@
 <div class="jumbotron">
   <h3>Bootstrap Resposive Calendar Demo for Salesforce</h3>
     <p>To learn more please visit blog link below</p>
-     <p><a class="btn btn-primary btn-lg" href="http://cloudyworlds.blogspot.com/" role="button" target="_blank">Learn more</a></p>
+     <p><a class="btn btn-primary btn-lg" href="http://cloudyworlds.blogspot.com/2015/04/responsive-bootstrap-calendar-in.html" role="button" target="_blank">Learn more</a></p>
   </div>
   
  <div class="page-header">
@@ -45,6 +45,19 @@
             <div id="calendar"></div>
         </div>
     </div>
+    <script>
+     window.configSettings = window.configSettings || {};
+
+    window.configSettings = {
+        Label : {
+            eventObjectName : "{!JSENCODE($ObjectType.Event.Label)}s"
+        }
+    }
+    
+    console.log( window.configSettings.Label.eventObjectName);
+    
+    </script>
+    
 
         
     <script type="text/javascript" src="{!URLFOR($Resource.CalendarLibrary, 'Bootstrap_ResponsiveCalendar/components/jquery/jquery.min.js')}"></script>
