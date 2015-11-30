@@ -26,4 +26,4 @@ http://cloudyworlds.blogspot.com/2015/04/responsive-bootstrap-calendar-in.html
 
 To install as an unmanged version please use below link
 
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04t90000000FUls
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t90000000FUlx
