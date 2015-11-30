@@ -28,7 +28,7 @@ To install as an unmanged version please use below link
 
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04t90000000FUls
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=Mohith Shrivastava&repo=https://github.com/msrivastav13/Bootstrap_Resposive_Calendar">
+<a href="https://githubsfdeploy.herokuapp.com?owner=msrivastav13&repo=Bootstrap_Resposive_Calendar">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
